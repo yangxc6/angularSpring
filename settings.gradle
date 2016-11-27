@@ -1,0 +1,5 @@
+rootProject.name = 'angularSpring'
+include 'as-web'
+findProject(':as-web')?.name = 'angularSpring'
+include 'as-core'
+
