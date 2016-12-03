@@ -6,11 +6,13 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by yxc on 2016/11/26.
  */
 @Configuration
+@Component
 @EnableMongoRepositories
 public class MongoConfig extends AbstractMongoConfiguration {
     private String dbName = "angularSpring";

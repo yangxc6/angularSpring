@@ -24,4 +24,5 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
         /*DispatcherServlet配置类*/
         return new Class<?>[] {WebConfig.class};
     }
+
 }

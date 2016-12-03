@@ -1,13 +1,9 @@
 package com.xc.as.core.crawler;
 
-import com.xc.as.core.config.MongoConfig;
 import com.xc.as.core.model.JsoupCrawler_JXLZ;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
@@ -25,18 +21,17 @@ import java.util.regex.Pattern;
 public class JXLZCallbackImpl implements CrawlerInterface{
     private String baseurl = "http://www.jxlz.gov.cn/";
 
-    @Autowired
+//    @Autowired
     protected MongoTemplate mongoOps;
 
 	public JXLZCallbackImpl() throws Exception{
-        ApplicationContext ac = new AnnotationConfigApplicationContext(MongoConfig.class);
-        this.mongoOps = (MongoTemplate) ac.getBean("mongoTemplate");
+//        ApplicationContext ac = new AnnotationConfigApplicationContext(MongoConfig.class);
+//        this.mongoOps = (MongoTemplate) ac.getBean("mongoTemplate");
 
 		if(null == this.mongoOps){
 			throw new Exception();
 		}
 	}
-
 
     public void on_start(String url){
         if(null == url){
@@ -153,6 +148,10 @@ public class JXLZCallbackImpl implements CrawlerInterface{
     public void run() throws Exception{
         JXLZCallbackImpl obj = new JXLZCallbackImpl();
         obj.on_start(null);
+    }
+
+    public void setMongoTemplate(MongoTemplate mongoOps) {
+        this.mongoOps = mongoOps;
     }
 
 }

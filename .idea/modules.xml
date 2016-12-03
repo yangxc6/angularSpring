@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/angularSpring.iml" filepath="$PROJECT_DIR$/.idea/modules/angularSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring.iml" filepath="$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring.iml" group="angularSpring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring_main.iml" group="angularSpring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring_test.iml" group="angularSpring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/as-core/as-core.iml" filepath="$PROJECT_DIR$/.idea/modules/as-core/as-core.iml" group="as-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/as-core/as-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/as-core/as-core_main.iml" group="as-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/as-core/as-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/as-core/as-core_test.iml" group="as-core" />
+    </modules>
+  </component>
+</project>
