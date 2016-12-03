@@ -3,13 +3,18 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'war'
+apply plugin: 'idea'
+apply plugin: 'jetty'
 
 sourceCompatibility = 1.5
 
 
 repositories {
-    mavenLocal()
-    mavenCentral()
+//    mavenLocal()
+//    mavenCentral()
+    maven {
+        url "http://maven.aliyun.com/nexus/content/groups/public/"
+    }
 }
 
 tasks.withType(JavaCompile) {
@@ -17,16 +22,25 @@ tasks.withType(JavaCompile) {
 }
 
 dependencies {
-    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.1.2.RELEASE'
+    def spring = [
+            "org.springframework:spring-context:4.3.4.RELEASE",
+            "org.springframework:spring-web:4.3.4.RELEASE",
+            "org.springframework:spring-tx:4.3.4.RELEASE",
+            "org.springframework:spring-webmvc:4.3.4.RELEASE",
+    ]
+
+    def jackson = [
+            "com.fasterxml.jackson.core:jackson-databind:2.5.3",
+            "com.fasterxml.jackson.core:jackson-core:2.5.3",
+            "com.fasterxml.jackson.core:jackson-annotations:2.5.3"
+    ]
+
+    compile spring, jackson
     compile group: 'org.thymeleaf', name: 'thymeleaf', version: '3.0.2.RELEASE'
     compile group: 'org.thymeleaf', name: 'thymeleaf-spring4', version:'3.0.2.RELEASE'
     compile group: 'javax.servlet', name: 'javax.servlet-api', version:'4.0.0-b01'
 
     compile project(':as-core')
 
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-}
-
-dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }

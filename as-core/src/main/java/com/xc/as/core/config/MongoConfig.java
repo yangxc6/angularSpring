@@ -2,7 +2,6 @@ package com.xc.as.core.config;
 
 import com.mongodb.Mongo;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
@@ -11,7 +10,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by yxc on 2016/11/26.
  */
-@Configuration
+//@Configuration
 @Component
 @EnableMongoRepositories
 public class MongoConfig extends AbstractMongoConfiguration {
