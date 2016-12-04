@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
@@ -41,18 +42,20 @@ public class CrawlerResource extends ResourceResponseSupport {
     }
 
     @RequestMapping(value = "/testRun", method = RequestMethod.GET )
-    public ResponseEntity<RestResultResponse> testRun() throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
+    public ResponseEntity<RestResultResponse> testRun() throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException, IOException {
+        List<Class<?>> classList = CrawlerScaner.getAllAssignedClass();
 
-        Class<CrawlerInterface> c = (Class<CrawlerInterface>) Class.forName("com.xc.as.core.crawler.JXLZCallbackImpl");
-//        Method mth = c.getMethod("run",null);
-        CrawlerInterface crawlerInterface = c.newInstance();
-        crawlerInterface.setMongoTemplate(mongoOps);
-        try {
-            crawlerInterface.run();
-        } catch (Exception e) {
-            e.printStackTrace();
+        for(Class<?> c: classList){
+            Class<CrawlerInterface> cClass = (Class<CrawlerInterface>) c;
+            CrawlerInterface crawlerInterface = cClass.newInstance();
+            crawlerInterface.setMongoTemplate(mongoOps);
+            try {
+                crawlerInterface.run();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
-//        mth.invoke(crawlerInterface);
+
         return new ResponseEntity<RestResultResponse>(
                 this.buildSuccessRestResultResponse(null),
                 HttpStatus.OK);

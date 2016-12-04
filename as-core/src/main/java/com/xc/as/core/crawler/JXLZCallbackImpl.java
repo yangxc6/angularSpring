@@ -24,14 +24,14 @@ public class JXLZCallbackImpl implements CrawlerInterface{
 //    @Autowired
     protected MongoTemplate mongoOps;
 
-	public JXLZCallbackImpl() throws Exception{
+/*	public JXLZCallbackImpl() throws Exception{
 //        ApplicationContext ac = new AnnotationConfigApplicationContext(MongoConfig.class);
 //        this.mongoOps = (MongoTemplate) ac.getBean("mongoTemplate");
 
 		if(null == this.mongoOps){
 			throw new Exception();
 		}
-	}
+	}*/
 
     public void on_start(String url){
         if(null == url){
