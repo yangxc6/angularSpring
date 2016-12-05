@@ -1,15 +1,16 @@
 <div ng-controller="CrawlerController as ctrl">
     <h1>定时爬虫配置</h1>
-    <table>
-        <thead>
+    <table style="width:50%;">
+        <thead class="tableTitle">
         <tr>
+            <th>编号</th>
             <th>爬虫</th>
         </tr>
         </thead>
         <tbody>
         <tr ng-repeat="crawler in ctrl.crawlerList">
-            <td><a title="{{crawler.name}}">{{crawler.name}}</a></td>
-            <td>{{}}</td>
+            <td ng-class="ctrl.getTrClass(crawler.index)" >{{crawler.index}}</td>
+            <td ng-class="ctrl.getTrClass(crawler.index)" ><a title="{{crawler.name}}">{{crawler.name}}</a></td>
         </tr>
         </tbody>
     </table>

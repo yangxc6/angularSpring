@@ -4,7 +4,8 @@
 
 var app = angular.module('as-app', ['ui.router']);
 
-app.controller('CrawlerController', [CrawlerController]);
+app.filter('StrToNumFilter',[StrToNumFilter])
+    .controller('CrawlerController', ['StrToNumFilterFilter', CrawlerController]);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
     //默认页面
