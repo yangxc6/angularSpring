@@ -9,3 +9,17 @@
 .tableTitle{
     background-color: #4e9ee9;
 }
+
+.leftFont{
+    padding:6px;
+    line-height:2;
+    font-family: "Microsoft YaHei";
+    font-size: 14pt;
+}
+
+.form-control {
+    border-color: #4e9ee9;
+    outline: 0px none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px
+    rgba(255, 188, 181, 0.6);
+}

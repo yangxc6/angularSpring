@@ -1,5 +1,5 @@
 <div ng-controller="CrawlerController as ctrl">
-    <h1>定时爬虫配置</h1>
+    <h3>定时爬虫配置</h3>
     <table style="width:50%;">
         <thead class="tableTitle">
         <tr>
@@ -12,6 +12,40 @@
             <td ng-class="ctrl.getTrClass(crawler.index)" >{{crawler.index}}</td>
             <td ng-class="ctrl.getTrClass(crawler.index)" ><a title="{{crawler.name}}">{{crawler.name}}</a></td>
         </tr>
+        </tbody>
+    </table>
+    <table style="width:45%;">
+        <thead style="height: 10%;">
+            <tr>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width:30%"><label style="width:10%;">爬虫类名</label></td>
+                <td>
+                    <div>
+                        <select style="width:80%;" class="form-control" ng-model="content.crawler" ng-options="obj in content.crawlerList">
+                            <option value="" disable="">请选择</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:30%"><label style="width:10%;">定时时刻</label></td>
+                <td>
+                    <div>
+                        <select style="width:80%;" class="form-control" ng-model="content.hour" ng-options="obj in hours">
+                            <option value="" disable="">请选择</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><button type="button" ng-click="save()">保存</button></td>
+            </tr>
         </tbody>
     </table>
 </div>
