@@ -1,6 +1,5 @@
-<div>
+<div ng-controller="CrawlerController as ctrl">
     <h1>定时爬虫配置</h1>
-
     <table>
         <thead>
         <tr>
@@ -8,8 +7,8 @@
         </tr>
         </thead>
         <tbody>
-        <tr ng-repeat="crawler in crawlerList">
-            <td><a title="{{}}">{{}}</a></td>
+        <tr ng-repeat="crawler in ctrl.crawlerList">
+            <td><a title="{{crawler.name}}">{{crawler.name}}</a></td>
             <td>{{}}</td>
         </tr>
         </tbody>

@@ -1,18 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn"
+      xmlns:th="http://www.thymeleaf.org" xmlns:tiles="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
-    <meta charset="UTF-8">
+    <style type="text/css">
+        html,body { height: 100%; margin: 0px; padding: 0px; }
+        #full { background: #fbfdff; height: 100% }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>AngularSpring Project Home Page</title>
 </head>
 <body ng-app="as-app">
-<h2>AngularSpring Project Home Page</h2>
-<div id="left">
-
+<div style="background-color: #160971;height:6%;">
+    <h2 style="color: #fbfdff">AngularSpring Project Home Page</h2>
 </div>
-    <li><a ui-sref-active="active" ui-sref="crawler"> <span>定时爬虫</span> </a></li>
-    <li><a ui-sref-active="active" ui-sref="weibo"> <span>微博数据</span> </a></li>
-<div ui-view="mainContent">
+<div style="height: 90%;width:100%;">
+    <table style="height:100%; width:100%;">
+        <td valign="top" style="background-color:#5aaeff;width:20%;height:100%;">
+            <div>
+                <li style="height: 5%;"><a ui-sref-active="active" ui-sref="crawler"> <span>Scheduled Crawler</span> </a></li>
+                <li style="height: 5%;"><a ui-sref-active="active" ui-sref="weibo"> <span>Weibo Statistics</span> </a></li>
+            </div>
+        </td>
+        <td valign="top" style="width:80%; height: 100%;">
+            <div ui-view>
+            </div>
+        </td>
+    </table>
+ <!--   <div id="left" style="background-color:#5aaeff;width:20%;height:100%;">
+        <div style="height: 5%;"></div>
+        <li style="height: 5%;"><a ui-sref-active="active" ui-sref="crawler"> <span>Scheduled Crawler</span> </a></li>
+        <li style="height: 5%;"><a ui-sref-active="active" ui-sref="weibo"> <span>Weibo Statistics</span> </a></li>
+    </div>
+    <div ui-view style="width:80%; height: 100%; float:right;">
+    </div>-->
 </div>
-
 </body>
+
+<script type="text/javascript" src="js/lib/jQuery.js" ></script>
+<script type="text/javascript" src="js/lib/angular.js"></script>
+<script type="text/javascript" src="js/lib/angular-ui-router.js"></script>
+
+<script type="text/javascript" src="js/crawler/CrawlerController.js"></script>
+<script type="text/javascript" src="js/as-app.js"></script>
+
 </html>

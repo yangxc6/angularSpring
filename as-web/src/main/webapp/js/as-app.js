@@ -2,7 +2,9 @@
  * Created by yxc on 2016/12/5.
  */
 
-var app = angular.module('as-app', []);
+var app = angular.module('as-app', ['ui.router']);
+
+app.controller('CrawlerController', [CrawlerController]);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
     //默认页面
@@ -10,7 +12,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 
     $stateProvider.state('crawler', {
         url : "/crawler",
-        templateUrl : 'template/mainContent/crawler.html',
+        templateUrl : 'templates/mainContent/crawler.html',
         controller : 'CrawlerController'
     });
 });
