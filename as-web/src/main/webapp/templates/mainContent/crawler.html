@@ -5,12 +5,16 @@
         <tr>
             <th>编号</th>
             <th>爬虫</th>
+            <th>时刻</th>
+            <th>操作</th>
         </tr>
         </thead>
         <tbody>
-        <tr ng-repeat="crawler in ctrl.crawlerList">
+        <tr ng-repeat="crawler in ctrl.crawlerTableItem">
             <td ng-class="ctrl.getTrClass(crawler.index)" >{{crawler.index}}</td>
             <td ng-class="ctrl.getTrClass(crawler.index)" ><a title="{{crawler.name}}">{{crawler.name}}</a></td>
+            <td ng-class="ctrl.getTrClass(crawler.index)" ><a title="{{crawler.time}}">{{crawler.time}}</a></td>
+            <td><button type="button" ng-click="ctrl.delete(crawler)">删除</button></td>
         </tr>
         </tbody>
     </table>
@@ -25,7 +29,7 @@
                 <td style="width:30%"><label style="width:10%;">爬虫类名</label></td>
                 <td>
                     <div>
-                        <select style="width:80%;" class="form-control" ng-model="content.crawler" ng-options="obj in content.crawlerList">
+                        <select style="width:80%;" class="form-control" ng-model="ctrl.crawler" ng-options="crawler.v as crawler.k for crawler in ctrl.crawlerList">
                             <option value="" disable="">请选择</option>
                         </select>
                     </div>
@@ -35,7 +39,7 @@
                 <td style="width:30%"><label style="width:10%;">定时时刻</label></td>
                 <td>
                     <div>
-                        <select style="width:80%;" class="form-control" ng-model="content.hour" ng-options="obj in hours">
+                        <select style="width:80%;" class="form-control" ng-model="ctrl.hour" ng-options="obj for obj in ctrl.hours">
                             <option value="" disable="">请选择</option>
                         </select>
                     </div>
@@ -44,7 +48,7 @@
             <tr>
                 <td></td>
                 <td></td>
-                <td><button type="button" ng-click="save()">保存</button></td>
+                <td><button type="button" ng-click="ctrl.save()">保存</button></td>
             </tr>
         </tbody>
     </table>

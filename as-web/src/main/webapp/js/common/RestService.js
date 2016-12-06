@@ -2,18 +2,21 @@
  * Created by yxc on 2016/12/5.
  */
 
-function RestService() {
-    this._get = function(url, successcb, errorcb, cached) {
+function RestService($http) {
+    var self = this;
+    self.$http = $http;
+
+    self._get = function(url, successcb, errorcb, cached) {
         var isCached = cached || false;
-        httpPromise = this.$http.get(encodeURI(url), {cache: isCached});
-        return this._thenFactoryMethod(httpPromise, successcb, errorcb);
+        httpPromise = self.$http.get(encodeURI(url), {cache: isCached});
+        return self._thenFactoryMethod(httpPromise, successcb, errorcb);
     };
 
-    this._post = function(url, data, successcb, errorcb, options) {
+    self._post = function(url, data, successcb, errorcb, options) {
         data = data || {}
         var postOptions = options || {}
-        httpPromise = this.$http.post(encodeURI(url), data, postOptions);
-        return this._thenFactoryMethod(httpPromise, successcb, errorcb);
+        httpPromise = self.$http.post(encodeURI(url), data, postOptions);
+        return self._thenFactoryMethod(httpPromise, successcb, errorcb);
     };
 
     this._put = function(url, data, successcb, errorcb) {
