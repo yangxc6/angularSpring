@@ -1,0 +1,34 @@
+
+<div ng-controller="ShowDataController as sctrl">
+<h2>爬虫爬取结果展示</h2>
+<table>
+    <tbody>
+    <tr>
+        <td style="width:30%"><label style="width:10%;">爬虫类名</label></td>
+        <td>
+            <div>
+                <select style="width:80%;" class="form-control" ng-model="sctrl.crawler" ng-change="sctrl.updateTable(sctrl.crawler)" ng-options="crawler.v as crawler.k for crawler in sctrl.crawlerList">
+                    <option value="" disable="">请选择</option>
+                </select>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<h5>显示10条以内数据样例</h5>
+
+<table style="width:60%;">
+    <thead class="tableTitle">
+    <tr>
+        <th>编号</th>
+        <th>标题</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="obj in sctrl.TableItem">
+        <td ng-class="sctrl.getTrClass(obj.index)" >{{obj.index}}</td>
+        <td ng-class="sctrl.getTrClass(obj.index)" ><a title="{{obj.title}}">{{obj.title}}</a></td>
+    </tr>
+    </tbody>
+</table>
+</div>

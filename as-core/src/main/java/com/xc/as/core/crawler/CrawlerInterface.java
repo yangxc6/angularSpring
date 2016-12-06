@@ -14,4 +14,6 @@ public interface CrawlerInterface {
     public void run()  throws Exception;
 
     public void setMongoTemplate(MongoTemplate mongoOps);
+
+    public String getTableName();
 }

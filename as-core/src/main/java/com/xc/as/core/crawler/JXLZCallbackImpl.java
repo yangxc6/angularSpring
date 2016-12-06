@@ -24,14 +24,11 @@ public class JXLZCallbackImpl implements CrawlerInterface{
 //    @Autowired
     protected MongoTemplate mongoOps;
 
-/*	public JXLZCallbackImpl() throws Exception{
-//        ApplicationContext ac = new AnnotationConfigApplicationContext(MongoConfig.class);
-//        this.mongoOps = (MongoTemplate) ac.getBean("mongoTemplate");
+    private String tableName = "JsoupCrawler_JXLZ";
 
-		if(null == this.mongoOps){
-			throw new Exception();
-		}
-	}*/
+    public String getTableName(){
+        return this.tableName;
+    }
 
     public void on_start(String url){
         if(null == url){

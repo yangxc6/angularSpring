@@ -43,6 +43,18 @@ public class CrawlerResource extends ResourceResponseSupport {
 
     }
 
+    @RequestMapping(value = "/getTenItems", method = RequestMethod.GET)
+    public ResponseEntity<RestResultResponse> getTenItems(String crawler){
+        try{
+            return new ResponseEntity<RestResultResponse>(
+                    this.buildSuccessRestResultResponse(crawlerService.getTenItems(crawler)),
+                    HttpStatus.OK);
+        }catch (Exception e){
+            return new ResponseEntity<RestResultResponse>(
+                    this.buildErrorRestResultResponse(e),HttpStatus.EXPECTATION_FAILED);
+        }
+    }
+
     @RequestMapping(value = "/deleteCrawler", method = RequestMethod.DELETE)
     public ResponseEntity<RestResultResponse> deleteCrawler(String crawler, String time){
         try{

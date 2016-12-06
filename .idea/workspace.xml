@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799fe049-b391-4917-b4f7-20509d77e91a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/CralwerSchedule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/CrawlerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/js/showData/ShowDataController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/js/showData/ShowDataService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/showData.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-core/build/classes/main/com/xc/as/core/service/CrawlerService.class" afterPath="$PROJECT_DIR$/as-core/build/classes/main/com/xc/as/core/service/CrawlerService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-core/build/libs/as-core.jar" afterPath="$PROJECT_DIR$/as-core/build/libs/as-core.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/build/classes/main/com/xc/as/web/resource/CrawlerResource.class" afterPath="$PROJECT_DIR$/as-web/build/classes/main/com/xc/as/web/resource/CrawlerResource.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/build/libs/angularSpring-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/as-web/build/libs/angularSpring-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/CrawlerInterface.java" afterPath="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/CrawlerInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/JXLZCallbackImpl.java" afterPath="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/JXLZCallbackImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/CrawlerService.java" afterPath="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/CrawlerService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/CrawlerResource.java" afterPath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/CrawlerResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/webapp/js/as-app.js" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/js/as-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/webapp/js/common/RestService.js" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/js/common/RestService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerController.js" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/crawler.html" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/crawler.html" />
     </list>
     <ignored path="angularSpring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +62,8 @@
       <file leaf-file-name="CrawlerResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/CrawlerResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="46" column="87" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="87" />
+            <state relative-caret-position="287">
+              <caret line="102" column="48" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -71,22 +72,38 @@
       <file leaf-file-name="CrawlerService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/CrawlerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="252">
+              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1337#1345#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CralwerSchedule.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/CralwerSchedule.java">
+      <file leaf-file-name="as-app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/as-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="135">
+              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showData.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/showData.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +112,32 @@
       <file leaf-file-name="CrawlerController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="405">
+              <caret line="62" column="9" selection-start-line="52" selection-start-column="8" selection-end-line="62" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowDataController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/showData/ShowDataController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowDataService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/showData/ShowDataService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -107,41 +148,9 @@
       <file leaf-file-name="CrawlerService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="92" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="92" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crawler.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/crawler.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="68" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="68" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#thead#0;n#table#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#0;n#tr#1;n#tbody#0;n#table#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/common/RestService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="51" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="51" />
-              <folding>
-                <element signature="n#!!doc;n#RestService#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -153,9 +162,9 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -824,7 +833,6 @@
         <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/JsoupCrawler_JXLZ.java" />
         <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/WeiboRaw.java" />
         <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/WeiboService.java" />
-        <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/CrawlerInterface.java" />
         <option value="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/WeiboResource.java" />
         <option value="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/WebAppInitializer.java" />
         <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/config/MongoConfig.java" />
@@ -832,20 +840,24 @@
         <option value="$PROJECT_DIR$/as-web/build.gradle" />
         <option value="$PROJECT_DIR$/run_jetty.sh" />
         <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/CrawlerScaner.java" />
-        <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/JXLZCallbackImpl.java" />
         <option value="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/AdminResource.java" />
         <option value="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/as-web/src/main/webapp/js/common/Filter.js" />
         <option value="$PROJECT_DIR$/as-web/src/main/webapp/css/style.css" />
-        <option value="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html" />
-        <option value="$PROJECT_DIR$/as-web/src/main/webapp/js/as-app.js" />
         <option value="$PROJECT_DIR$/as-web/src/main/webapp/js/common/RestService.js" />
         <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/CralwerSchedule.java" />
         <option value="$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/crawler.html" />
-        <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/CrawlerService.java" />
-        <option value="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/CrawlerResource.java" />
         <option value="$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerController.js" />
         <option value="$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerService.js" />
+        <option value="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html" />
+        <option value="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/CrawlerResource.java" />
+        <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/JXLZCallbackImpl.java" />
+        <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/CrawlerInterface.java" />
+        <option value="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/CrawlerService.java" />
+        <option value="$PROJECT_DIR$/as-web/src/main/webapp/js/showData/ShowDataService.js" />
+        <option value="$PROJECT_DIR$/as-web/src/main/webapp/js/as-app.js" />
+        <option value="$PROJECT_DIR$/as-web/src/main/webapp/js/showData/ShowDataController.js" />
+        <option value="$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/showData.html" />
       </list>
     </option>
   </component>
@@ -870,9 +882,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="191" />
-    <option name="y" value="38" />
-    <option name="width" value="1224" />
+    <option name="x" value="26" />
+    <option name="y" value="37" />
+    <option name="width" value="1479" />
     <option name="height" value="817" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1048,6 +1060,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularSpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularSpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="as-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1380,6 +1426,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularSpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularSpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="as-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1978,15 +2058,15 @@
       <workItem from="1480753392416" duration="5126000" />
       <workItem from="1480760111563" duration="16000" />
       <workItem from="1480760202204" duration="20072000" />
-      <workItem from="1480914850049" duration="36211000" />
+      <workItem from="1480914850049" duration="44497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101105000" />
+    <option name="totallyTimeSpent" value="109391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="38" width="1224" height="817" extended-state="0" />
+    <frame x="26" y="37" width="1479" height="817" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1999,17 +2079,17 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5751073" sideWeight="0.49079755" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24606581" sideWeight="0.4754601" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115879826" sideWeight="0.4754601" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29103214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22477384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24846625" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2960199" sideWeight="0.49675024" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29470673" sideWeight="0.49675024" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2097,8 +2177,20 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/CrawlerResource.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/CrawlerService.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -2111,27 +2203,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/ICallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/1.9.5.RELEASE/6001e2696d014e3ca432880e3895ab151ebdf33e/spring-data-mongodb-1.9.5.RELEASE-sources.jar!/org/springframework/data/mongodb/config/AbstractMongoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.2.RELEASE/acbfc78fb75c4a76b62faa2d30414c07c33e9f85/spring-webmvc-4.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/support/AbstractDispatcherServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/WeiboRaw.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -2277,21 +2348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/CrawlerInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/JXLZCallbackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/lib/jQuery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12023">
@@ -2366,41 +2422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11625">
           <caret line="947" column="16" selection-start-line="947" selection-start-column="16" selection-end-line="947" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#div#0;n#td#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#div#0;n#td#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/as-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/JsoupCrawler_JXLZ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -2491,20 +2512,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/common/RestService.js">
+    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/CralwerSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="51" />
+        <state relative-caret-position="75">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
           <folding>
-            <element signature="n#!!doc;n#RestService#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/crawler.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="68" />
+        <state relative-caret-position="-30">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#1;n#div#0;n#!!top" expanded="true" />
@@ -2519,48 +2540,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/CrawlerService.java">
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/common/RestService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="90">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#RestService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/JsoupCrawler_JXLZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/JXLZCallbackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/CrawlerResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="46" column="87" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="87" />
+        <state relative-caret-position="287">
+          <caret line="102" column="48" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerService.js">
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/showData/ShowDataService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/CralwerSchedule.java">
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="168">
+          <caret line="22" column="84" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#div#0;n#td#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#div#0;n#td#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/service/CrawlerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1337#1345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/crawler/CrawlerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="92" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/as-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/crawler/CrawlerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="62" column="9" selection-start-line="52" selection-start-column="8" selection-end-line="62" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/showData/ShowDataController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/showData.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

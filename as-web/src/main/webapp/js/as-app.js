@@ -7,7 +7,9 @@ var app = angular.module('as-app', ['ui.router']);
 app.filter('StrToNumFilter',[StrToNumFilter])
     .service('RestService',['$http',RestService])
     .service('CrawlerService',['RestService', CrawlerService])
-    .controller('CrawlerController', ['StrToNumFilterFilter','CrawlerService', CrawlerController]);
+    .service('ShowDataService',['RestService', ShowDataService])
+    .controller('CrawlerController', ['StrToNumFilterFilter','CrawlerService', CrawlerController])
+    .controller('ShowDataController', ['StrToNumFilterFilter','CrawlerService','ShowDataService', ShowDataController]);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
     //默认页面
@@ -17,5 +19,10 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         url : "/crawler",
         templateUrl : 'templates/mainContent/crawler.html',
         controller : 'CrawlerController'
-    });
+    })
+        .state('showData',{
+            url : "/showData",
+            templateUrl : 'templates/mainContent/showData.html',
+            controller : 'ShowDataController'
+        });
 });
