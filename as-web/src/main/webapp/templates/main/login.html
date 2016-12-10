@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
@@ -8,23 +8,28 @@
 
 <form action="j_spring_security_check" method="post">
     <div>
-        <h2>登录</h2>
+        <h2>Login</h2>
         <div>
-            <label>用户名：</label>
+            <label>User: </label>
             <input id="j_username" name="j_username" type="text"
                    class="form-control">
         </div>
         <div>
-            <label>密码：</label>
+            <label>Password: </label>
 
             <input id="j_password" name="j_password" type="password"
                    class="form-control">
         </div>
-
+        <!--/*@thymesVar id="errorMsg" type="java"*/-->
+        <div th:if="${errorMsg}!=null" class="row no-margin">
+            <div class="alert alert-warning">
+                <strong th:text="${errorMsg}"></strong>
+            </div>
+        </div>
     </div>
 
     <div>
-        <button type="submit">登录</button>
+        <button type="submit">Submit</button>
     </div>
 
 </form>

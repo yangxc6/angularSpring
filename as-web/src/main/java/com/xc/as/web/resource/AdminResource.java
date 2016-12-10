@@ -16,4 +16,13 @@ public class AdminResource {
     public ModelAndView homePage(){
         return new ModelAndView("main/home");
     }
+
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public ModelAndView loginPage(boolean error){
+        ModelAndView mv = new ModelAndView("main/login");
+        if(true == error){
+            mv.addObject("errorMsg", "User name or password is incorrect.");
+        }
+        return mv;
+    }
 }

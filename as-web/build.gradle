@@ -27,6 +27,8 @@ dependencies {
             "org.springframework:spring-web:4.3.4.RELEASE",
             "org.springframework:spring-tx:4.3.4.RELEASE",
             "org.springframework:spring-webmvc:4.3.4.RELEASE",
+            "org.springframework.security:spring-security-web:4.2.0.RELEASE",
+            "org.springframework.security:spring-security-config:4.2.0.RELEASE"
     ]
 
     def jackson = [
