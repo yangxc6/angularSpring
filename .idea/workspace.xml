@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799fe049-b391-4917-b4f7-20509d77e91a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_config_4_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_core_4_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_web_4_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/as-core/src/main/java/com/xc/as/core/model/AdminUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/common/CustomUserDetailsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/SecurityWebApplicationInitializer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-core/build/libs/as-core.jar" afterPath="$PROJECT_DIR$/as-core/build/libs/as-core.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/build/classes/main/com/xc/as/web/config/RootConfig.class" afterPath="$PROJECT_DIR$/as-web/build/classes/main/com/xc/as/web/config/RootConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/build/classes/main/com/xc/as/web/config/WebSecurityConfig.class" afterPath="$PROJECT_DIR$/as-web/build/classes/main/com/xc/as/web/config/WebSecurityConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/build/libs/angularSpring-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/as-web/build/libs/angularSpring-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_xc_angularSpring___angularSpring_1_0_SNAPSHOT_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_xc_angularSpring___angularSpring_1_0_SNAPSHOT_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_xc_angularSpring___angularSpring_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_xc_angularSpring___angularSpring_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/as-web/angularSpring-angularSpring_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/build.gradle" afterPath="$PROJECT_DIR$/as-web/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/RootConfig.java" afterPath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/RootConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/WebSecurityConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/AdminResource.java" afterPath="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/AdminResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/login.html" afterPath="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/login.html" />
     </list>
     <ignored path="angularSpring.iws" />
@@ -67,33 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RootConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/RootConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="45">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -110,22 +70,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/AdminResource.java">
+      <file leaf-file-name="crawler.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/crawler.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="15">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/main/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="125">
+              <caret line="41" column="79" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#STYLE#0;n#td#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#td#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#STYLE#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#STYLE#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#tr#2;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -837,8 +806,8 @@
         <option value="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/SecurityWebApplicationInitializer.java" />
         <option value="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/AdminResource.java" />
         <option value="$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/login.html" />
         <option value="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html" />
+        <option value="$PROJECT_DIR$/as-web/src/main/webapp/templates/main/login.html" />
       </list>
     </option>
   </component>
@@ -1781,12 +1750,12 @@
       <workItem from="1481197828392" duration="2312000" />
       <workItem from="1481159203852" duration="593000" />
       <workItem from="1481159283182" duration="1135000" />
-      <workItem from="1481159120613" duration="10901000" />
+      <workItem from="1481159120613" duration="11786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127875000" />
+    <option name="totallyTimeSpent" value="128760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="33" width="1409" height="817" extended-state="0" />
@@ -2019,13 +1988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/crawler.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/js/common/RestService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2214,8 +2176,8 @@
         <state relative-caret-position="498">
           <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1719#1737#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1719#1737#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2225,7 +2187,7 @@
         <state relative-caret-position="161">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2262,14 +2224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/main/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/as-web/src/main/java/com/xc/as/web/resource/AdminResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -2290,8 +2244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/main/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="45">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -2303,6 +2257,31 @@
             <element signature="n#style#0;n#td#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#div#0;n#td#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#div#0;n#td#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/mainContent/crawler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/as-web/src/main/webapp/templates/main/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="41" column="79" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#td#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#td#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#tr#2;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
